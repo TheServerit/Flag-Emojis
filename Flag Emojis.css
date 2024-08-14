@@ -1,0 +1,146 @@
+/**
+ * @name Flag Emojis
+ * @author TheServerit
+ * @version 1.2
+ * @description Makes emojis of flags show as actual emojis.
+ 
+ * @source
+ {source url}
+
+ * @invite
+ {the letters part of a server invite}
+
+ * @donate https://www.patreon.com/LogoMakerDiscord
+ * @patreon https://www.patreon.com/LogoMakerDiscord
+ 
+ * @website
+ {domain}
+
+ * @authorId 487601133817298954
+
+ * @Credit: TheServerit
+ {Idk what this does}
+
+*/
+
+
+@font-face
+ { font-family: "Twemoji Mozilla";
+   src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf") format("truetype");
+   unicode-range: U+1F1E6-1F1FF; }
+[data-list-item-id^=channels___]:not([role=button]), /* channel list */
+[class^=titleWrapper] > h1, /* top bar with topic */
+[class^=titleWrapper] > h2, /* top bar in thread view */
+[id^=":r"] > h1, /* topic popup */
+[class^=resultChannel], [class^=channelNameContainer_], [class^=searchAnswer_], /* search */
+[class^=autocompleteRowContent_] [class*=autocompleteRowHeading_], /* chat autocomplete */
+.channelWithIcon, /* channel mentions in chat */
+[class^=emptyChannelIcon_] + h3, /* start of new channel */
+[class^=emptyChannelIcon_] ~ [class*=description_],
+[class^=browser_] [class*=channelText_], /* channel browser*/
+[class^=returnButton_] [class^=text-], /*return button in channel browser*/
+[class^=placeholder][class*=slateTextArea], /* chat input placeholder text */
+[class^=auditLog_] [class^=overflowEllipsis_] strong, /* audit log */
+.vc-permviewer-perms-title, /* permissionsviewer */
+[class^=headerChannelContainer_] > div, /* invite to channel dialog */
+[class^=uploadDropModal_] strong, /* file drag upload */
+[class^=channelNameSpan_], /* inbox */
+[class^=quickswitcher_] [class^=name_] /* ctrl+k */
+ { font-family: "Twemoji Mozilla", "dashless", var(--font-primary); }
+[class^=emptyChannelIcon_] ~ [class*=description_] > *
+ 
+ [class^=username_] /*display name in chat*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=membersWrap_] /*member list*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=defaultColor_] /*name in profile*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+ 
+ [class^=wrapper_] /*when editing a message with mention*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+.mention /*in mention*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=repliedMessage] /*name in reply*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+ 
+ [class^=usernameFont_] /*vc username*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=embedAuthor_] /*embed (title)*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+ 
+ [class^=container] /*search name*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=inputDefault_] /*profie editing*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=lineClamp1_] /*profie editing*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class*=Container]  /*server name*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=hoverRoll_]  /*status in bottom left corner*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=name_]  /*"replying to {name}"*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=eyebrow_]  /*server name above categories in settings*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=info_]  /*name in main profile view in settings*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+ 
+ [class^=text-md-normal_]  /*"display name: {name}"*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=input_]  /*emoji search*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=scrollbarGhostHairline_]  /*" ```flag``` "*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [data-slate-string^=true]  /*" ```flag``` " in text box*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [id^=message-content] code.inline /*in `{text}` format*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=fontScaling_]  /*when hovering on "X votes" in a poll*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=h5_]  /*vencord server info section*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=changeStr_]  /*moderation action logs*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+ 
+ [class^=searchInput_]  /*the list in "choose a server" (when not clicked)*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=overlayTitleText_]  /*name of user on square in vc, bottom corner*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=text-xs]  /*"vc name / server {flag}"*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=heading-sm]  /*user under activities when hovering on server*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=contents_]  /*"go to {server with flag in name}" (after adding app) and maybe more stuff?*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=roleInner_]  /*"roles/members" section*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class*=permissionsLabel_]  /*"roles/members" section*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class*=username_]  /*"roles/members" section*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
