@@ -142,8 +142,11 @@
  [class*=permissionsLabel_]  /*server name in invite (oauth2)*/
  { font-family: "Twemoji Mozilla", var(--font-primary); }
 
- [class*=username_]  /*name in vencord message preview*/
+ [class^=username_]  /*name in vencord message preview*/
  { font-family: "Twemoji Mozilla", var(--font-primary); }
 
- [class*=text-lg]  /*signature in guild creation*/
+ [class^=text-lg]  /*signature in guild creation*/
+ { font-family: "Twemoji Mozilla", var(--font-primary); }
+
+ [class^=embedWrapper_] code.inline  /*in `text` format in embed*/
  { font-family: "Twemoji Mozilla", var(--font-primary); }
