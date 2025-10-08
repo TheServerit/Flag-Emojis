@@ -1,1 +1,1 @@
-A CSS file for Discord that makes emojis of flags show as actual emojis instead of their unicode letters symbol.
+An extension for Discord (CSS) that makes flag emojis display as actual emojis rather than their two-letter-code.
